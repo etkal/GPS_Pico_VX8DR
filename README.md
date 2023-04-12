@@ -5,7 +5,7 @@
 
   The Yaesu VX-8DR handheld amateur radio supports an external FGPS-2 GPS module to set the time and perform APRS operation.  However, these modules are no longer in production (as is the radio), but there is a desire to obtain GPS capability for existing radios.
   
-  In researching this capability I found the following web site that details some of the differences between the FGPS-2 GPS module and others and how the VX-8DR radio expects the NMEA strings from the module (as it is non-standard).
+  In researching this capability I found the following web site that details some of the differences between the FGPS-2 GPS module and others and how the VX-8DR radio expects the NMEA strings from the module (as it is non-standard):
   https://lingnik.com/2013/02/09/reverse-engineering-yaesu-vx-8dr-gps-interface.html
   
 - Hardware
@@ -21,6 +21,11 @@
   - 3.3 volt from the Pico 3V3 pad
   - Ground from one of the Pico GND pads
   - RX and TX connect to the Pico UART0
+
+- Software Requirements
+
+  This implementation uses the MicroPython port for Raspberry Pi Pico RP2040 controllers:
+  https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
 
 - Operation
 
