@@ -33,8 +33,8 @@
 
   Main loops forever reading GPS data.  The sentences are modified to meet the expectations of the Yaesu VX-8DR and sent to the radio.
 
-- Caveat (IMPORTANT!!!)
+- Caveats (IMPORTANT!!!)
 
-  The radio does not always stop supplying power to the GPS when it is powered off!!!!!!
-  Remember to remove the GPS module when powering off the radio!!
-  
+  The radio does not always stop supplying power to the GPS when it is powered off!!!!!!  Remember to remove the GPS module when powering off the radio!!
+
+  Power comsumption is a fair amount more than the FGPS-2 so your batteries will drain faster.
