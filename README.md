@@ -32,3 +32,9 @@
 - Operation
 
   Main loops forever reading GPS data.  The sentences are modified to meet the expectations of the Yaesu VX-8DR and sent to the radio.
+
+- Caveat (IMPORTANT!!!)
+
+  The radio does not always stop supplying power to the GPS when it is powered off!!!!!!
+  Remember to remove the GPS module when powering off the radio!!
+  
