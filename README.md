@@ -1,6 +1,8 @@
 # GPS_Pico_VX8DR
 - External GPS module for Yaesu VX-8DR handheld amateur radio using Raspberry Pi Pico
 
+![VX-8DR with new module and showing FGPS-2](images/VX8DR-GPS-small.png)
+
 - Background
 
   The Yaesu VX-8DR handheld amateur radio supports an external FGPS-2 GPS module to set the time and perform APRS operation.  However, these modules are no longer in production (as is the radio), but there is a desire to obtain GPS capability for existing radios.
